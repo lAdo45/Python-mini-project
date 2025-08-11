@@ -20,7 +20,8 @@ Concepts used: random module, loops, conditionals, and user input handling.
 
 Objective: Practice logic building and understand how to implement feedback loops in games.
 
-2️⃣ Library Management System – Python Project
+2️⃣ Library Management System 
+
 This Library Management System is a console-based Python application that helps manage the operations of a library efficiently. It uses Object-Oriented Programming (OOP) concepts such as classes, objects, and methods to simulate a real-world library environment.
 
 The system is designed with two main classes:
