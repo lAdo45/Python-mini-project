@@ -3,6 +3,7 @@
 This repository contains three beginner-friendly Python projects developed for practice and skill-building. Each project focuses on basic Python concepts like conditionals, loops, functions, and random number generation.
 
 1️⃣ Number Guessing Game 🎯
+
 A simple interactive game where the computer randomly selects a number within a predefined range, and the player has to guess it.
 
 How it works:
@@ -20,6 +21,7 @@ Concepts used: random module, loops, conditionals, and user input handling.
 Objective: Practice logic building and understand how to implement feedback loops in games.
 
 2️⃣ Simple Calculator ➕➖✖️➗
+
 A basic command-line calculator capable of performing fundamental arithmetic operations.
 
 How it works:
@@ -37,6 +39,7 @@ Concepts used: Functions, conditionals, and basic error handling.
 Objective: Learn how to structure code for multiple operations and handle user choices effectively.
 
 3️⃣ Rock-Paper-Scissors Game ✊📄✂️
+
 A classic hand game simulation where the user competes against the computer.
 
 How it works:
