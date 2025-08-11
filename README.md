@@ -20,23 +20,62 @@ Concepts used: random module, loops, conditionals, and user input handling.
 
 Objective: Practice logic building and understand how to implement feedback loops in games.
 
-2️⃣ Simple Calculator ➕➖✖️➗
+2️⃣ Library Management System – Python Project
+This Library Management System is a console-based Python application that helps manage the operations of a library efficiently. It uses Object-Oriented Programming (OOP) concepts such as classes, objects, and methods to simulate a real-world library environment.
 
-A basic command-line calculator capable of performing fundamental arithmetic operations.
+The system is designed with two main classes:
 
-How it works:
+1. Library Class
+   
+This class manages the core library functionalities, including maintaining a collection of books and handling book transactions.
 
-The user provides two numbers.
+Key Methods:
 
-The program displays a menu for choosing an operation (Addition, Subtraction, Multiplication, Division).
+__init__ – Initializes the library with a predefined list of available books.
 
-Based on the choice, the calculation is performed and the result is shown.
+display_available_books() – Displays the list of books currently available in the library.
 
-Handles invalid inputs and division by zero errors gracefully.
+lend_book(book_name, student) – Allows a student to borrow a book if it is available. Removes the book from the available list and adds it to the student's borrowed list.
 
-Concepts used: Functions, conditionals, and basic error handling.
+add_book(book_name) – Adds a new book to the library’s collection.
 
-Objective: Learn how to structure code for multiple operations and handle user choices effectively.
+return_book(book_name, student) – Handles the return process by removing the book from the student's borrowed list and adding it back to the library.
+
+2. Student Class
+   
+This class represents a student interacting with the library. Each student can borrow, return, and keep track of books they have taken.
+
+Key Methods:
+
+__init__ – Initializes the student with a name and an empty list of borrowed books.
+
+borrow_book(book_name) – Requests a book from the library.
+
+return_book(book_name) – Returns a borrowed book to the library.
+
+3. Main Program Flow
+   
+The main part of the application provides a menu-driven interface for smooth user interaction.
+It allows the user to:
+
+View all available books
+
+Borrow a book
+
+Return a book
+
+Add a new book to the library
+
+Exit the program
+
+The program continuously runs until the user chooses to exit, making it easy for library managers or students to perform multiple operations in one session.
+
+Features of the Project:
+✅ Simple and interactive command-line interface
+✅ Demonstrates OOP principles in Python
+✅ Supports adding and returning books dynamically
+✅ Handles cases where books are unavailable
+✅ Easily extendable for real-world applications
 
 3️⃣ Rock-Paper-Scissors Game ✊📄✂️
 
